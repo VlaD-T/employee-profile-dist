@@ -201,8 +201,8 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: -80px;
-  margin-bottom: -80px;
+  /* margin-top: -80px;
+  margin-bottom: -80px; */
 }
 
 .banner {
@@ -410,6 +410,11 @@
 
 .settings-menu-toggle:hover i {
   animation: rotation 5s linear;
+}
+
+.print-settings-img {
+  display: block;
+  margin: auto;
 }
 
 
