@@ -105,6 +105,10 @@
   font-size: 12px;
 }
 
+.btn_delete_education {
+  margin-top: -12px;
+}
+
 .btn_add {
   margin-top: -40px;
 }
@@ -284,6 +288,49 @@
   display: inline;
   padding: 0;
   margin: 0;
+}
+
+.education-certificate-headnote {
+  display: flex;
+  align-items: center;
+  margin-bottom: .5rem;
+
+  .badge-check > svg {
+    max-width: 20px;
+  }
+
+  p {
+    margin-left: 1rem;
+    font-size: 11px;
+  }
+}
+
+.education-general-item {
+  clear: both;
+}
+
+.education-general-text {
+  float: left;
+}
+
+.education-general-badge {
+  float: left;
+  width: 25px;
+}
+
+.education-print-badge {
+  max-width: 25px;
+  margin-left: 10px;
+  margin-top: -2px;
+
+  svg {
+    max-width: 25px;
+  }
+}
+
+.education-languages-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .education-rating {
