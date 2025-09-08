@@ -464,6 +464,10 @@
   margin: auto;
 }
 
+/* Manager */
+.v-data-table-header__content {
+  font-weight: bold;
+} 
 
 @media print {
   .no-print {
